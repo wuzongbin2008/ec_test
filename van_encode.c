@@ -15,8 +15,8 @@ int check_argv(int argc,char *argv[]){
 
     /* Error check Arguments*/
 	if (argc != 8) {
-		fprintf(stderr,  "usage: inputfile k m coding_technique w (packetsize) (buffersize)\n");
-		fprintf(stderr,  "\nChoose one of the following coding techniques: \nreed_sol_van, \nreed_sol_r6_op, \ncauchy_orig, \ncauchy_good, \nliberation, \nblaum_roth, \nliber8tion");
+		fprintf(stderr,  "\nusage: inputfile k m coding_technique w (packetsize) (buffersize)\n");
+		fprintf(stderr,  "\nChoose one of the following coding techniques: \nreed_sol_van, \nreed_sol_r6_op, \ncauchy_orig, \ncauchy_good, \nliberation, \nblaum_roth, \nliber8tion \n\n");
 		exit(EXIT_SUCCESS);
 	}
 
