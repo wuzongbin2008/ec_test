@@ -31,7 +31,16 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
-		<Unit filename="jerasure/cauchy.c">
+		<Unit filename="custom_log.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="custom_log.h" />
+		<Unit filename="ec_src.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ec_src.h" />
+		<Unit filename="ec_storage.h" />
+		<Unit filename="ec_test.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="jerasure/cauchy.h" />
@@ -51,9 +60,19 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="jerasure/reed_sol.h" />
-		<Unit filename="main.c">
+		<Unit filename="transform.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="transform.h" />
+		<Unit filename="unit_test.h" />
+		<Unit filename="van_encode.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="van_encode.h" />
+		<Unit filename="xmalloc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="xmalloc.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />
