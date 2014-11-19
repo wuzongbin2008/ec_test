@@ -1,0 +1,60 @@
+# depslib dependency file v1.0
+1408674204 source:/project/c/ec_test/jerasure/cauchy.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"galois.h"
+	"jerasure.h"
+	"cauchy.h"
+
+1408674204 /project/c/ec_test/jerasure/galois.h
+	<stdio.h>
+	<stdlib.h>
+
+1408674204 /project/c/ec_test/jerasure/jerasure.h
+	"galois.h"
+
+1408674204 /project/c/ec_test/jerasure/cauchy.h
+
+1408687060 source:/project/c/ec_test/jerasure/galois.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"galois.h"
+
+1408678372 source:/project/c/ec_test/jerasure/jerasure.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"galois.h"
+	"jerasure.h"
+
+1408674204 source:/project/c/ec_test/jerasure/liberation.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"galois.h"
+	"jerasure.h"
+	"liberation.h"
+
+1408674204 /project/c/ec_test/jerasure/liberation.h
+
+1408674204 source:/project/c/ec_test/jerasure/reed_sol.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"galois.h"
+	"jerasure.h"
+	"reed_sol.h"
+
+1408674204 /project/c/ec_test/jerasure/reed_sol.h
+
+1410330016 source:/project/c/ec_test/main.c
+	<stdio.h>
+	<stdlib.h>
+	"jerasure/cauchy.h"
+	"jerasure/galois.h"
+	"jerasure/jerasure.h"
+	"jerasure/liberation.h"
+	"jerasure/reed_sol.h"
+
