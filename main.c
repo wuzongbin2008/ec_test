@@ -28,6 +28,7 @@ int main(int argc,char *argv[])
     {
         coding[i] = (char *)malloc(sizeof(char)*blocksize);
     }
+
     /* Set pointers to point to file data */
     for (i = 0; i < k; i++)
     {
@@ -42,7 +43,13 @@ int main(int argc,char *argv[])
         }
     }
 
+    //encode
     jerasure_matrix_encode(k, m, w, matrix, data, coding, blocksize);
+    for(i=0; i<3; i++)
+    {
+        printf("\ncoding[%d] =%d=%s",i,strlen(coding[i]),coding[i]);
+    }
+    printf("\n\n");
 
     return 0;
 }
